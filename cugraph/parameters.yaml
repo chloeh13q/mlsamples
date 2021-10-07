@@ -1,0 +1,7 @@
+data_path: ''
+data_mnt: './data'
+data_url: 'https://s3.us-east-2.amazonaws.com/rapidsai-data/cugraph/benchmark/twitter-2010.csv.gz'
+chunksize: 1GB
+alpha: 0.85
+max_iter: 100
+tol: 1.0e-5
