@@ -1,3 +1,11 @@
+# container parameters
+FROM_IMAGE: nvcr.io/nvidia/rapidsai/rapidsai
+CUDA_VER: 11.2
+IMAGE_TYPE: runtime
+LINUX_VER: ubuntu20.04
+PYTHON_VER: 3.7
+
+# notebook parameters
 data_path: ''
 data_mnt: './data'
 data_url: 'https://s3.us-east-2.amazonaws.com/rapidsai-data/cugraph/benchmark/twitter-2010.csv.gz'
